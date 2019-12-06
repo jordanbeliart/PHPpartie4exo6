@@ -10,11 +10,11 @@
       if($i % 15 == 0){
   ?>
       <p>fizzbuzz</p>
-  <?php } elseif($i % 3 == 0){ ?>
+  <?php }elseif($i % 3 == 0){ ?>
       <p>buzz</p>
-  <?php } elseif($i % 5 == 0){ ?>
+  <?php }elseif($i % 5 == 0){ ?>
       <p>fizz</p>
-  <?php } else{ ?>
+  <?php }else{ ?>
       <p><?php  echo $i; }}; ?></p>
 </body>
 </html>
